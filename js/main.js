@@ -10,8 +10,8 @@ fetch(url)
     .then(data => {
         console.log(data)
         document.querySelector("img").src = data.url
-        document.querySelector("h2").innerText = data.title
-        document.querySelector("h3").innerText = data.explanation
+        document.querySelector("#name").innerText = data.title
+        document.querySelector("#description").innerText = data.explanation
     })
     .catch(err => {
         console.log(`error ${err}`)

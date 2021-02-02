@@ -19,3 +19,11 @@ img{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#title, #format, #dateInput, #dateInputButton, #name, #description{
+  display: block;
+  margin: 0 25%;
+}
+#description{
+  margin: 0 auto;
+  font-size: 2rem;
+}
